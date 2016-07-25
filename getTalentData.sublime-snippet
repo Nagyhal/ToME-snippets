@@ -1,7 +1,0 @@
-<!--Get whatever talent parameter.-->
-<snippet>
-	<content><![CDATA[local ${SELECTION/get|(?:([A-Z][a-z]*)([A-Z][a-z]*))|([A-Z][a-z]*)/\L?2\1_\2\3\E:?3\3\E/g)} = t.$SELECTION(self, t)]]></content>
-	<tabTrigger>tget</tabTrigger>
-	<scope>source.lua</scope>
-	<description>Get local named talent_data from getTalentData)</description>
-</snippet>
