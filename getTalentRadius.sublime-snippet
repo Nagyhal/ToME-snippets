@@ -1,0 +1,7 @@
+<!--Get talent radius.-->
+<snippet>
+	<content><![CDATA[local radius = ${SELECTION/^\z/self/g}:getTalentRadius(t)]]></content>
+	<tabTrigger>radius</tabTrigger>
+	<scope>source.lua</scope>
+	<description>Get local named "radius" (with getTalentRadius)</description>
+</snippet>
