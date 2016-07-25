@@ -3,5 +3,5 @@
 	<content><![CDATA[local range = ${SELECTION/^\z/self/g}:getTalentRange(t)]]></content>
 	<tabTrigger>range</tabTrigger>
 	<scope>source.lua</scope>
-	<description>Get local named "range" (with getTalentRange)</description>
+	<description>ToME talents: local "range" from getTalentRange</description>
 </snippet>

@@ -3,5 +3,5 @@
 	<content><![CDATA[local ${1/get|(?:([A-Z][a-z]*)([A-Z][a-z]*))|([A-Z][a-z]*)/\L?2\1_\2\3\E:?3\3\E/g)} = t.${1:$SELECTION${2:getValue}}(self, t)]]></content>
 	<tabTrigger>tget</tabTrigger>
 	<scope>source.lua</scope>
-	<description>Get local named talent_value from getTalentValue)</description>
+	<description>ToME talents: local "talent_value" from getTalentValue</description>
 </snippet>

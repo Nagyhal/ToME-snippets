@@ -3,5 +3,5 @@
 	<content><![CDATA[local radius = ${SELECTION/^\z/self/g}:getTalentRadius(t)]]></content>
 	<tabTrigger>radius</tabTrigger>
 	<scope>source.lua</scope>
-	<description>Get local named "radius" (with getTalentRadius)</description>
+	<description>ToME talents: local "radius" from getTalentRadius</description>
 </snippet>
