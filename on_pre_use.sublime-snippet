@@ -1,0 +1,7 @@
+<!--Basic template for on_pre_use.-->
+<snippet>
+	<content><![CDATA[on_pre_use = function(self, t, silent) if not self:${1:hasSomething}(${2:params}) then if not silent then game.logPlayer(self, "You require ${3:something} to use this talent.") end return false end return true end,]]></content>
+	<tabTrigger>on_pre_use</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Template for on_pre_use</description>
+</snippet>
