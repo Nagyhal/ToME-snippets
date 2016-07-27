@@ -1,0 +1,7 @@
+<!--Get talent target-->
+<snippet>
+	<content><![CDATA[local target = ${SELECTION/^\z/self/g}:getTalentTarget(t)]]></content>
+	<tabTrigger>target</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: local "target" from getTalentTarget</description>
+</snippet>
