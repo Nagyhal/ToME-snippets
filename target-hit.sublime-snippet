@@ -1,0 +1,7 @@
+<!--Target template: Hit-->
+<snippet>
+	<content><![CDATA[target = function(self, t) return {type="hit", range=${1:self:getTalentRange(t)}, talent=t} end,]]></content>
+	<tabTrigger>hit</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Hit targeting template.</description>
+</snippet>

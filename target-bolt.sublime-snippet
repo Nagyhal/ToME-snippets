@@ -1,0 +1,7 @@
+<!--Target template: Bolt-->
+<snippet>
+	<content><![CDATA[target = function(self, t) return {type="bolt", ${1:range=self:getTalentRange(t)}, talent=t, friendlyfire=${2:false}, display={particle=${3:"bolt_elemental"}}} end,]]></content>
+	<tabTrigger>bolt</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Bolt targeting template.</description>
+</snippet>

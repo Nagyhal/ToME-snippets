@@ -1,0 +1,7 @@
+<!--Target template: Wall-->
+<snippet>
+	<content><![CDATA[target = function(self, t) return {type="wall", range=${1:self:getTalentRange(t)}, halflength=${2:halflength}, talent=t, halfmax_spots=${2:halflength}+1, block_radius=block} end,]]></content>
+	<tabTrigger>wall</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Wall targeting template.</description>
+</snippet> 

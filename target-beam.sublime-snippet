@@ -1,0 +1,7 @@
+<!--Target template: Beam-->
+<snippet>
+	<content><![CDATA[target = function(self, t) return {type="beam", range=${1:self:getTalentRange(t)}, talent=t} end,]]></content>
+	<tabTrigger>beam</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Beam targeting template.</description>
+</snippet>

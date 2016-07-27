@@ -1,0 +1,7 @@
+<!--Target template: Cone-->
+<snippet>
+	<content><![CDATA[target = function(self, t) return {type="cone", range=${1:self:getTalentRange(t)}, radius = ${2:self:getTalentRadius(t)}, selffire = ${3:false}, friendlyfire = ${4:false}, talent=t} end,]]></content>
+	<tabTrigger>cone</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Cone targeting template.</description>
+</snippet>
