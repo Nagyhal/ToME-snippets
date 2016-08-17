@@ -1,0 +1,9 @@
+<!--Basic template for talent passives .-->
+<snippet>
+	<content><![CDATA[passives = function(self, t, p)
+	self:talentTemporaryValue(p ,"${1:combat_atk}", 1)
+end,]]></content>
+	<tabTrigger>passives</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Add a passive effect to a talent using talentTemporaryValue.</description>
+</snippet>
