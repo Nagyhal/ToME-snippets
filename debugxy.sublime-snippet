@@ -1,0 +1,7 @@
+<!--Quick & dirty debug message to game log window.-->
+<snippet>
+	<content><![CDATA[game.log(("DEBUG: ${1: val_}x is: %s and $1y is: %s"):format(tostring($1x), tostring($1y)))]]></content>
+	<tabTrigger>debugxy</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME debug: Send x and y values to game log.</description>
+</snippet>

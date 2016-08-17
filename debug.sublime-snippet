@@ -1,0 +1,7 @@
+<!--Quick & dirty debug message to game log window.-->
+<snippet>
+	<content><![CDATA[game.log("DEBUG: ${1:It worked!}")]]></content>
+	<tabTrigger>debug</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME debug: Send a message to game log.</description>
+</snippet>
