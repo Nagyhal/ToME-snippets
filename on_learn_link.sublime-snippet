@@ -1,0 +1,16 @@
+<!--Link a second talent using on_learn.-->
+<snippet>
+	<content><![CDATA[on_learn = function(self, t)
+	if not self:knowTalent(self.T_${1:LINKED_TALENT}) then
+		self:learnTalent(self.T_${1:LINKED_TALENT}, nil, nil, {no_unlearn=true})
+	end
+end,
+on_unlearn = function(self, t)
+	if not self:knowTalent(t) then
+		self:unlearnTalent(self.T_${1:LINKED_TALENT})
+	end
+end,]]></content>
+	<tabTrigger>on_learn_link</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Use on_learn to link learning a second talent to this one.</description>
+</snippet>
