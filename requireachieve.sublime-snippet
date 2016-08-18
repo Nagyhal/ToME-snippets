@@ -1,0 +1,10 @@
+<!--Require an achievement - for prodigies, etc.-->
+<snippet>
+	<content><![CDATA[require = { special={desc="${1:Gain a very special achievement}", fct=function(self)
+		local id = world:getCurrentAchievementDifficultyId(game, "${2:FOO}")
+		return world:hasAchievement(id)
+	end}},]]></content>
+	<tabTrigger>requireachieve</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Requre an achivement.</description>
+</snippet>

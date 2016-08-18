@@ -1,0 +1,7 @@
+<!--Template for a cooldown using combatTalentLimit.-->
+<snippet>
+	<content><![CDATA[cooldown = function(self, t) return math.${4:ceil}(self:${5:combatTalentLimit}(t, ${1:10}, ${2:45}, ${3:25})) end,]]></content>
+	<tabTrigger>cooldownLimit</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Template for cooldown to use a limit.</description>
+</snippet>

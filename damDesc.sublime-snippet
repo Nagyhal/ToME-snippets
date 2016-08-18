@@ -1,0 +1,7 @@
+<!--Get damage for a talent using damDesc.-->
+<snippet>
+	<content><![CDATA[local ${2/get|(?:([A-Z][a-z]*)([A-Z][a-z]*))|([A-Z][a-z]*)/\L?2\1_\2\3\E:?3\3\E/g)} = damDesc(self, DamageType.${1:PHYSICAL}, t.${2:$SELECTION${3:getDam}}(self, t))]]></content>
+	<tabTrigger>damDesc</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Get local "dam" using damDesc</description>
+</snippet>

@@ -1,0 +1,7 @@
+<!--Basic template for a cooldown.-->
+<snippet>
+	<content><![CDATA[cooldown = ${1:10} end,]]></content>
+	<tabTrigger>cooldown</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Basic cooldown.</description>
+</snippet>
