@@ -1,0 +1,7 @@
+<!--Add a value to a talent, derived from combatTalentScale.-->
+<snippet>
+	<content><![CDATA[get${1:Val} = function(self, t) return self:combatTalentScale(t, ${2:3}, ${3:6}) end,]]></content>
+	<tabTrigger>getCombatTalentScale</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Create a getVal function using combatTalentScale</description>
+</snippet>

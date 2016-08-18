@@ -1,0 +1,7 @@
+<!--Add a value to a talent, derived from combatTalentLimit.-->
+<snippet>
+	<content><![CDATA[get${1:Val} = function(self, t) return self:combatTalentLimit(t, ${2:100}, ${3:45}, ${4:85}) end,]]></content>
+	<tabTrigger>getCombatTalentLimit</tabTrigger>
+	<scope>source.lua</scope>
+	<description>ToME talents: Create a getVal function using combatTalentLimit</description>
+</snippet>
